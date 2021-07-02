@@ -6,7 +6,7 @@ function About() {
         <div>
         <Menu 
             oneTxt='Home'
-            oneLink='/home'
+            oneLink='/'
             twoTxt='Music'
             twoLink='/music'
             threeTxt='Resources'

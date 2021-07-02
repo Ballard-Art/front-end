@@ -6,7 +6,7 @@ function Music() {
         <div>
         <Menu 
             oneTxt='Home'
-            oneLink='/home'
+            oneLink='/'
             twoTxt='About'
             twoLink='/about'
             threeTxt='Resources'
