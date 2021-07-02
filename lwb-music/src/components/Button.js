@@ -11,6 +11,10 @@ const StyledLink = styled.a`
     text-decoration: none;
     color: #f6eaf4;
     font-size: 1.1rem;
+
+    &:hover {
+        color: #d97e43
+    }
 `
 
 function Button({ imp, text, link }) {

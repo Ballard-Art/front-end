@@ -27,6 +27,7 @@ function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, 
         <StyledBar>
             <StyledName>
                <h1>Louis Wayne Ballard</h1> 
+               <h5>Life || Music || Legacy</h5>
             </StyledName>
             <StyledLinks>
                 <Button imp='primary' text={oneTxt} link={oneLink} />
