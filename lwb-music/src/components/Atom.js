@@ -18,7 +18,7 @@ function Atom({ title, subtitle, text, img, mainimg }) {
 
             </div>    
         </div>   
-        </div>
+    </div>
     )
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, fourLink}) {
     return (
@@ -7,10 +8,10 @@ function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, 
                <h1>Louis Wayne Ballard</h1> 
             </div>
             <div>
-                <button imp='primary' text={oneTxt} link={oneLink} />
-                <button imp='secondary' text={twoTxt} link={twoLink} />
-                <button imp='tertiary' text={threeTxt} link={threeLink} />
-                <button imp='quaternary' text={fourTxt} link={fourLink} />
+                <Button imp='primary' text={oneTxt} link={oneLink} />
+                <Button imp='secondary' text={twoTxt} link={twoLink} />
+                <Button imp='tertiary' text={threeTxt} link={threeLink} />
+                <Button imp='quaternary' text={fourTxt} link={fourLink} />
             </div>
         </div>
     )

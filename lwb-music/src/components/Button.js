@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Button({ text, link }) {
+function Button({ imp, text, link }) {
     return (
-        <div>
+        <div className={`button ${imp === 'secondary' ? 'button_white' : ''}`}>
            <a href={link}>
                {text}
             </a> 
