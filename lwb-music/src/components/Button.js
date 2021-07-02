@@ -1,12 +1,25 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const StyledButton = styled.button`
+    height: 5vh;
+    width: 10vw;
+    background-color: transparent;
+    border: none;
+`
+const StyledLink = styled.a`
+    text-decoration: none;
+    color: #f6eaf4;
+    font-size: 1.1rem;
+`
 
 function Button({ imp, text, link }) {
     return (
-        <div className={`button ${imp === 'secondary' ? 'button_white' : ''}`}>
-           <a href={link}>
+        <StyledButton>
+           <StyledLink href={link}>
                {text}
-            </a> 
-        </div>
+            </StyledLink> 
+        </StyledButton>
     )
 }
 
