@@ -1,6 +1,7 @@
 import React from 'react'
 import Menu from '../components/Menu'
 import LWBlinks from '../components/LWBlinks';
+import NAlinks from '../components/NAlinks';
 
 function Resources() {
     return (
@@ -16,6 +17,7 @@ function Resources() {
             fourLink='/contact'
         />
         <LWBlinks />
+        <NAlinks />
         </div>
     )
 }

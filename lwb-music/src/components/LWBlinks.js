@@ -3,7 +3,7 @@ import styled from 'styled-components';
 //for now the plan is to make these separate components and hardcode in the links
 
 const StyledContainer = styled.div`
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: #313a61;
     display: flex;
@@ -13,7 +13,6 @@ const StyledText = styled.div`
     height: 80vh;
     width: 75vw;
     margin-left: 5%;
-    justify-content: space-between;
 `
 const StyledLinks = styled.a`
     text-decoration: none;
