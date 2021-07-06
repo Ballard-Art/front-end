@@ -1,5 +1,6 @@
 import React from 'react'
 import Menu from '../components/Menu'
+import LWBlinks from '../components/LWBlinks';
 
 function Resources() {
     return (
@@ -14,6 +15,7 @@ function Resources() {
             fourTxt='Contact'
             fourLink='/contact'
         />
+        <LWBlinks />
         </div>
     )
 }
