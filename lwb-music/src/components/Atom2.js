@@ -23,7 +23,7 @@ const StyledText = styled.div`
 const StyledPic = styled.img`
     height: 70vh;
     width: 47vw;
-    margin-left: 8.5%;
+    margin-left: 11.5%;
 `
 
 function Atom2({ title, subtitle, text, flic }) {
