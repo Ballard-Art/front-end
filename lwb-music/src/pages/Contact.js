@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import Menu from '../components/Menu';
+import ContactForm from '../components/ContactForm';
 
 function Contact() {
     return (
@@ -9,11 +10,16 @@ function Contact() {
             oneLink='/'
             twoTxt='About'
             twoLink='/about'
-            threeTxt='Music'
-            threeLink='/music'
-            fourTxt='Resources'
-            fourLink='/resources'
+            threeTxt='Gallery'
+            threeLink='/gallery'
+            fourTxt='Music'
+            fourLink='/music'
+            fiveTxt='Resources'
+            fiveLink='/resources'
         />
+        <div>
+            <ContactForm />
+        </div>
         </div>
     )
 }
