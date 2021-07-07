@@ -13,10 +13,12 @@ function About() {
             oneLink='/'
             twoTxt='Music'
             twoLink='/music'
-            threeTxt='Resources'
-            threeLink='/resources'
-            fourTxt='Contact'
-            fourLink='/contact'
+            threeTxt='Gallery'
+            threeLink='/gallery'
+            fourTxt='Resources'
+            fourLink='/resources'
+            fiveTxt='Contact'
+            fiveLink='/contact'
         />
         <div>
             <Atom 

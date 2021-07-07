@@ -11,10 +11,12 @@ function Resources() {
             oneLink='/'
             twoTxt='About'
             twoLink='/about'
-            threeTxt='Music'
-            threeLink='/music'
-            fourTxt='Contact'
-            fourLink='/contact'
+            threeTxt='Gallery'
+            threeLink='/gallery'
+            fourTxt='Music'
+            fourLink='/music'
+            fiveTxt='Contact'
+            fiveLink='/contact'
         />
         <LWBlinks />
         <NAlinks />

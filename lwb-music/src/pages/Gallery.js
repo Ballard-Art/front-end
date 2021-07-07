@@ -13,6 +13,16 @@ function Gallery() {
     return (
         <div>
         <Menu 
+        oneTxt='Home'
+        oneLink='/'
+        twoTxt='About'
+        twoLink='/about'
+        threeTxt='Music'
+        threeLink='/music'
+        fourTxt='Resources'
+        fourLink='/resources'
+        fiveTxt='Contact'
+        fiveLink='/contact'
         />
         <div>
             // eslint-disable-next-line react/jsx-pascal-case

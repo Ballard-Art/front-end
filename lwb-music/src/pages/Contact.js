@@ -9,10 +9,12 @@ function Contact() {
             oneLink='/'
             twoTxt='About'
             twoLink='/about'
-            threeTxt='Music'
-            threeLink='/music'
-            fourTxt='Resources'
-            fourLink='/resources'
+            threeTxt='Gallery'
+            threeLink='/gallery'
+            fourTxt='Music'
+            fourLink='/music'
+            fiveTxt='Resources'
+            fiveLink='/resources'
         />
         </div>
     )
