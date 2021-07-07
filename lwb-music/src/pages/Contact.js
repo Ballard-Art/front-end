@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import Menu from '../components/Menu';
+import ContactForm from '../components/ContactForm';
 
 function Contact() {
     return (
@@ -16,6 +17,9 @@ function Contact() {
             fiveTxt='Resources'
             fiveLink='/resources'
         />
+        <div>
+            <ContactForm />
+        </div>
         </div>
     )
 }

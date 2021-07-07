@@ -14,7 +14,7 @@ const StyledContents = styled.div`
     display: flex;
 `
 const StyledPic = styled.img`
-    height: 55vh;
+    height: 50vh;
     width: 31vw;
     padding: 1.25%;
 `
