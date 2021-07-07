@@ -23,7 +23,7 @@ const StyledCaption = styled.h4`
     width: 90vw;
 `
 
-function G_panel3({ g1, g2, g3, caption }) {
+function GPanel3({ g1, g2, g3, caption }) {
     return (
         <StyledPanel>
             <StyledContents>
@@ -36,4 +36,4 @@ function G_panel3({ g1, g2, g3, caption }) {
     )
 }
 
-export default G_panel3
+export default GPanel3

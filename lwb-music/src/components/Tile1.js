@@ -39,7 +39,7 @@ function Tile1({ title, link, text, icon, color }) {
             </StyledBox> 
             <StyledText>
                 <h1>{title}</h1>
-                <a href={link}></a>
+                {/* <a href={link}></a> */}
                 <h3>{text}</h3>
             </StyledText>
         </StyledTile>
