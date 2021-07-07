@@ -15,26 +15,25 @@ const StyledContents = styled.div`
 `
 const StyledPic = styled.img`
     height: 55vh;
-    width: 23vw;
-    padding: 1%;
+    width: 31vw;
+    padding: 1.25%;
 `
 const StyledCaption = styled.h4`
     margin-left: 1.5%;
     width: 90vw;
 `
 
-function G_panel({ g1, g2, g3, g4, caption }) {
+function G_panel3({ g1, g2, g3, caption }) {
     return (
         <StyledPanel>
             <StyledContents>
                 <StyledPic src={g1} alt="tertiary"/>
                 <StyledPic src={g2} alt="tertiary"/>
                 <StyledPic src={g3} alt="tertiary"/>
-                <StyledPic src={g4} alt="tertiary"/>
             </StyledContents>
             <StyledCaption>{caption}</StyledCaption>
         </StyledPanel>
     )
 }
 
-export default G_panel
+export default G_panel3
