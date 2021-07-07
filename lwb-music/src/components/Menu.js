@@ -10,16 +10,16 @@ const StyledBar = styled.div`
 `
 const StyledName = styled.div`
     height: 10vh;
-    width: 35vw;
+    width: 40vw;
     font-size: 1.5rem;
     margin-left: 2%;
 
 `
 const StyledLinks = styled.div`
     height: 10vh;
-    width: 45vw;
+    width: 60vw;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 10%;
 `
 
 function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, fourLink, fiveTxt, fiveLink }) {
