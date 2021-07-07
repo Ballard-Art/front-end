@@ -22,7 +22,7 @@ const StyledLinks = styled.div`
     margin-left: 25%;
 `
 
-function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, fourLink}) {
+function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, fourLink, fiveTxt, fiveLink }) {
     return (
         <StyledBar>
             <StyledName>
@@ -34,6 +34,7 @@ function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, 
                 <Button imp='secondary' text={twoTxt} link={twoLink} />
                 <Button imp='tertiary' text={threeTxt} link={threeLink} />
                 <Button imp='quaternary' text={fourTxt} link={fourLink} />
+                <Button imp='quinternary' text={fiveTxt} link={fiveLink} />
             </StyledLinks>
         </StyledBar>
     )
