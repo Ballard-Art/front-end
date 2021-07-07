@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from '../components/Menu';
-import G_panel from '../components/G_panel';
-import G_panel3 from '../components/G_panel3';
+import GPanel from '../components/GPanel';
+import GPanel3 from '../components/GPanel3';
 //pics panel one
 import g1 from '../assets/gallery/g_1.png';
 import g2 from '../assets/gallery/g_2.png';
@@ -28,14 +28,14 @@ function Gallery() {
         fiveLink='/contact'
         />
         <div>
-            <G_panel 
+            <GPanel 
                 g1={g7}
                 g2={g1}
                 g3={g2}
                 g4={g4}
                 caption='Amet cursus sit amet dictum. Sed vulputate odio ut enim blandit. Tempor nec feugiat nisl pretium. Donec adipiscing tristique risus nec feugiat in fermentum posuere. Augue mauris augue neque gravida in. Lacinia at quis risus sed vulputate. At quis risus sed vulputate odio ut enim blandit volutpat. Velit laoreet id donec ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit. Eget mi proin sed libero enim. Commodo odio aenean sed adipiscing diam donec adipiscing.'
             />
-            <G_panel3 
+            <GPanel3 
                 g1={g5}
                 g2={g11}
                 g3={g12}
