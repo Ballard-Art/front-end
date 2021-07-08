@@ -5,13 +5,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledColumn = styled.div`
-    height: 240vh;
+    height: 280vh;
     width: 20vw;
     background-color: #313a61;
     display: flex;
 `
 const StyledLine = styled.div`
-    height: 240vh;
+    height: 280vh;
     width: 1vw;
     background-color: #f6eaf4;
     margin-left: 5%;
