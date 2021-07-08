@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledAtom = styled.div`
-    height: 80vh;
-    width: 80vw;
+    height: 100vh;
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,16 +17,16 @@ const StyledContents = styled.div`
 `
 const StyledText = styled.div`
     height: 60vh;
-    width: 40vw;
-    margin-left: 4%;
+    width: 50vw;
+    margin-left: 8%;
 `
 const StyledPic = styled.img`
-    height: 55vh;
-    width: 35vw;
-    margin-left: 0%;
+    height: 65vh;
+    width: 45vw;
+    margin-left: 4%;
 `
 
-function Atom({ title, subtitle, text, flic }) {
+function BigAtom({ title, subtitle, text, flic }) {
     return (
     <StyledAtom>
         <div>
@@ -46,4 +46,4 @@ function Atom({ title, subtitle, text, flic }) {
     )
 }
 
-export default Atom
+export default BigAtom

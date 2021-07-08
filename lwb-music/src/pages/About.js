@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
 import Menu from '../components/Menu';
 import Atom from '../components/Atom';
 import Atom2 from '../components/Atom2';
+import Timeline from '../components/Timeline';
+//pictures
 import School from '../assets/seneca_ndns.png';
 import Flute from '../assets/lwb_flute.png';
+
+const StyledContents = styled.div`
+    display: flex;
+`
+const StyledAtoms = styled.div`
+    flex-direction: column;
+    width: 80vw;
+`
+
 
 function About() {
     return (
@@ -20,7 +32,9 @@ function About() {
             fiveTxt='Contact'
             fiveLink='/contact'
         />
-        <div>
+        <StyledContents>
+            <Timeline />
+        <StyledAtoms>
             <Atom 
                 flic={School}
                 title='Humble Beginnings'
@@ -33,7 +47,8 @@ function About() {
                 subtitle='The Cultural Milieu and American Indian Music'
                 text='Parturient montes nascetur ridiculus mus mauris vitae ultricies. Amet justo donec enim diam vulputate. Lacus sed turpis tincidunt id aliquet risus. Lorem ipsum dolor sit amet. Lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor. Tempor orci eu lobortis elementum nibh. Justo laoreet sit amet cursus. Auctor augue mauris augue neque gravida in fermentum et. Tristique senectus et netus et malesuada. Aliquet lectus proin nibh nisl condimentum id venenatis. Id aliquet risus feugiat in ante metus. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Enim blandit volutpat maecenas volutpat blandit aliquam etiam. Arcu dui vivamus arcu felis. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Adipiscing bibendum est ultricies integer. Et netus et malesuada fames ac turpis egestas.'
             />
-        </div>
+        </StyledAtoms>
+        </StyledContents>
         </div>
     )
 }
