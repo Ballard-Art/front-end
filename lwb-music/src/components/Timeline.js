@@ -19,6 +19,9 @@ const StyledLine = styled.div`
 const StyledDate = styled.h1`
     height: 25vh;
     margin-left: 2%;
+    &:hover {
+        color: #f13e2e
+    }
 `
 
 function Timeline() {
