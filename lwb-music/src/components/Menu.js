@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const StyledBar = styled.div`
     height: 25vh;
     width: 100vw;
-    background-color: #313a61;
+    background-color: black;
     display: flex;
 `
 const StyledName = styled.div`

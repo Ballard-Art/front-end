@@ -7,7 +7,7 @@ const StyledPanel = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #313a61;
+    background-color: black;
     scroll-snap-align: start;
 `
 const StyledContents = styled.div`
