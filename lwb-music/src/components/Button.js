@@ -13,7 +13,7 @@ const StyledLink = styled.a`
     font-size: 1.1rem;
 
     &:hover {
-        color: #d97e43
+        color: #487c7c
     }
 `
 

@@ -7,7 +7,7 @@ const StyledAtom = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #313a61;
+    background-color: black;
     display: flex;
     justify-content: left;
     scroll-snap-align: start;

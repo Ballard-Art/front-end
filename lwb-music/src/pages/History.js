@@ -17,7 +17,7 @@ const StyledAtoms = styled.div`
 `
 
 
-function About() {
+function History() {
     return (
         <div>
         <Menu 
@@ -53,4 +53,4 @@ function About() {
     )
 }
 
-export default About
+export default History

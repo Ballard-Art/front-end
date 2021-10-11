@@ -8,8 +8,8 @@ function Home() {
 
         <div>
         <Menu 
-            oneTxt='About'
-            oneLink='/about'
+            oneTxt='History'
+            oneLink='/history'
             twoTxt='Music'
             twoLink='/music'
             threeTxt='Gallery'

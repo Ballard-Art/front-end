@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #313a61;
+    background-color: black;
     display: flex;
 }
 .contents{
@@ -32,24 +32,24 @@
 .contents input[type="text"],
 .contents input[type="email"] {
     border: none;
-    border-bottom: 1px solid #eff9f0;
+    border-bottom: 1px solid #f6eaf4;
     background: transparent;
     outline: none;
     height: 5vh;
-    color: #eff9f0;
+    color: #f6eaf4;
     font-size: 1.2vw;
 }
 
 ::placeholder{
-    color:#eff9f0;
+    color:#f6eaf4;
 }
 
 .contents textarea {
     border: none;
-    border-bottom: 1px solid #eff9f0;
+    border-bottom: 1px solid #f6eaf4;
     background: transparent;
     outline: white;
-    color: #eff9f0;
+    color: #f6eaf4;
     font-size: 1.2vw;
 }
 

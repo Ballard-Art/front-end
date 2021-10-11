@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const StyledColumn = styled.div`
     height: 280vh;
     width: 20vw;
-    background-color: #313a61;
+    background-color: black;
     display: flex;
 `
 const StyledLine = styled.div`
