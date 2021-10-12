@@ -14,6 +14,7 @@ const StyledAtom = styled.div`
 `
 const StyledContents = styled.div`
     display: flex;
+    margin-top: 5%;
 `
 const StyledText = styled.div`
     height: 60vh;

@@ -10,13 +10,17 @@ const StyledBar = styled.div`
     display: flex;
 `
 const StyledName = styled.div`
-    height: 10vh;
+    height: 5vh;
     width: 45vw;
     font-size: 1.5rem;
     margin-left: 2%;
 `
 const StyledLine = styled.div`
     display: flex;
+`
+const StyledSub = styled.div`
+    display: flex;
+    flex-direction: column;
 `
 const StyledLogo = styled.div`
     height: 5vh;
@@ -27,21 +31,32 @@ const StyledLogo = styled.div`
 const StyledLinks = styled.div`
     height: 10vh;
     width: 60vw;
-    margin-top: 2%;
-    margin-left: 10%;
+    margin-top: 10.5%;
+    margin-left: 5%;
+`
+const StyledColor = styled.div`
+    height: 3vh;
+    width: 100vw;
+    background-color: #487c7c;
 `
 
 function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, fourLink, fiveTxt, fiveLink }) {
     return (
+        <div>
         <StyledBar>
             <StyledName>
             <StyledLine>
+            <StyledSub>
                <h1>Louis Wayne Ballard</h1> 
-               <StyledLogo>
-               <img src={Eagle} alt="logo"/>
-               </StyledLogo>
-            </StyledLine>
                <h5>Life | Music | Legacy</h5>
+            </StyledSub>
+               <StyledLogo>
+               <img 
+                src={Eagle} 
+                alt="logo"
+                />
+               </StyledLogo>
+            </StyledLine> 
             </StyledName>
             <StyledLinks>
                 <Button imp='primary' text={oneTxt} link={oneLink} />
@@ -51,6 +66,8 @@ function Menu({ oneTxt, oneLink, twoTxt, twoLink, threeTxt, threeLink, fourTxt, 
                 <Button imp='quinternary' text={fiveTxt} link={fiveLink} />
             </StyledLinks>
         </StyledBar>
+        <StyledColor></StyledColor>
+        </div>
     )
 }
 

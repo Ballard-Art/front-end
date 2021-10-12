@@ -12,7 +12,7 @@ const StyledColumn = styled.div`
 `
 const StyledLine = styled.div`
     height: 280vh;
-    width: 1vw;
+    width: 0.5vw;
     background-color: #f6eaf4;
     margin-left: 5%;
 `

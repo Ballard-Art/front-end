@@ -6,10 +6,10 @@ function Contact() {
     return (
         <div>
           <Menu 
-            oneTxt='Home'
+            oneTxt='Main'
             oneLink='/'
-            twoTxt='About'
-            twoLink='/about'
+            twoTxt='History'
+            twoLink='/history'
             threeTxt='Gallery'
             threeLink='/gallery'
             fourTxt='Music'

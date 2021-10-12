@@ -16,10 +16,10 @@ function Gallery() {
     return (
         <div>
         <Menu 
-        oneTxt='Home'
+        oneTxt='Main'
         oneLink='/'
-        twoTxt='About'
-        twoLink='/about'
+        twoTxt='History'
+        twoLink='/history'
         threeTxt='Music'
         threeLink='/music'
         fourTxt='Resources'

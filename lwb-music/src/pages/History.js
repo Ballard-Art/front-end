@@ -21,7 +21,7 @@ function History() {
     return (
         <div>
         <Menu 
-            oneTxt='Home'
+            oneTxt='Main'
             oneLink='/'
             twoTxt='Music'
             twoLink='/music'
